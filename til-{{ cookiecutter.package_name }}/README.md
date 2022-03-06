@@ -7,5 +7,5 @@
 ## Usage
 
 ```tcl
-{{ cookiecutter.package }} "argument0"
+{{ cookiecutter.package_name }} "argument0"
 ```
