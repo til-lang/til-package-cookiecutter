@@ -1,0 +1,13 @@
+dist/
+til
+
+*.so
+*.o
+*.a
+*.obj
+*.lst
+
+trace.*
+test.til
+docs.json
+__dummy.html
