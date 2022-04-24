@@ -6,7 +6,10 @@ dist/libtil_{{ cookiecutter.package_name }}.so: til source/app.d
 		--O2 -of=dist/libtil_{{ cookiecutter.package_name }}.so
 
 test:
-	til/til.release test.til
+	til run test.til
+
+debug:
+	til debug test.til
 
 til:
 	git clone https://github.com/til-lang/til.git til
